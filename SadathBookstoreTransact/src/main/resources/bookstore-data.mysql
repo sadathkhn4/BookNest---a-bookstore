@@ -1,0 +1,27 @@
+DELETE FROM book;
+ALTER TABLE book AUTO_INCREMENT = 1001;
+
+DELETE FROM category;
+ALTER TABLE category AUTO_INCREMENT = 1001;
+
+INSERT INTO `category` (`name`) VALUES ('Mythology'),('Romance'),('Thriller'),('Kids');
+
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id) VALUES ('Cherish', 'Tracy Wolff', '', 874, 0, TRUE, FALSE, 1001);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id) VALUES ('Fairy Tale', 'Stephen King', '', 799, 0, FALSE, FALSE, 1001);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id) VALUES ('Dune', 'Frank Herbert', '', 599, 0, TRUE, FALSE, 1001);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id) VALUES ('Caraval', 'Stephanie Garber', '', 899, 0, TRUE, FALSE, 1001);
+
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id) VALUES ('Twisted Games', 'Ana Huang', '', 949, 0, TRUE, FALSE, 1002);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id) VALUES ('Wildfire', 'Hannah Grace', '', 599, 0, TRUE, FALSE, 1002);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id) VALUES ('Too Late', 'Colleen Hoover', '', 799, 0, FALSE, FALSE, 1002);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id) VALUES ('Summer Island', 'Kristin Hannah', '', 499, 0, TRUE, FALSE, 1002);
+
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id) VALUES ('Never Lie', 'Freida McFadden', '', 999, 0, TRUE, FALSE, 1003);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id) VALUES ('All In', 'Jennifer Barnes', '', 599, 0, TRUE, FALSE, 1003);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id) VALUES ('Gone Girl', 'Gillian Flynn', '', 899, 0, TRUE, FALSE, 1003);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id) VALUES ('Confessions', 'Kanae Minato', '', 649, 0, FALSE, FALSE, 1003);
+
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id) VALUES ('Spy School', 'Stuart Gibbs', '', 849, 0, TRUE, FALSE, 1004);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id) VALUES ('Allergic', 'Megan Lloyd', '', 559, 0, TRUE, FALSE, 1004);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id) VALUES ('Dog Man', 'Dav Pilkey', '', 699, 0, FALSE, FALSE, 1004);
+INSERT INTO `book` (title, author, description, price, rating, is_public, is_featured, category_id) VALUES ('Naruto', 'Masashi Kishimoto', '', 799, 0, TRUE, FALSE, 1004);
