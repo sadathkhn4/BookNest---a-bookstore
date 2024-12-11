@@ -1,0 +1,54 @@
+{
+  "categories": [
+    {
+      "categoryId": 1001,
+      "name": "Kids"
+    },
+    {
+      "categoryId": 1002,
+      "name": "Mythology"
+    },
+    {
+      "categoryId": 1003,
+      "name": "Romance"
+    },
+    {
+      "categoryId": 1004,
+      "name": "Thriller"
+    }
+  ],
+  "books": [
+    {
+      "bookId": 1001,
+      "title": "Red Rising",
+      "author": "Pierce Brown",
+      "price": 1399,
+      "isPublic": true,
+      "categoryId": 1001
+    },
+    {
+      "bookId": 1002,
+      "title": "Never Lie",
+      "author": "Frieda McFadden",
+      "price": 1099,
+      "isPublic": true,
+      "categoryId": 1001
+    },
+    {
+      "bookId": 1003,
+      "title": "Too Late",
+      "author": "Colleen Hoover",
+      "price": 599,
+      "isPublic": true,
+      "categoryId": 1001
+    },
+    {
+      "bookId": 1004,
+      "title": "Twisted Games",
+      "author": "Ana Huang",
+      "price": 999,
+      "isPublic": true,
+      "categoryId": 1001
+    }
+  ]
+}
